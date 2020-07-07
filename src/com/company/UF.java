@@ -3,6 +3,7 @@ package com.company;
 public class UF {
     private int[]p;
     public UF(int n) {
+        p = new int[n];
         for (int i = 0; i < n; i++) {
             p[i]=i;
         }
