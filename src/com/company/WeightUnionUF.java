@@ -1,6 +1,7 @@
 package com.company;
 // Third Algorithm
 public class WeightUnionUF {
+
     int[] id;
     int[] sizes;
 

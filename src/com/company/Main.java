@@ -10,10 +10,10 @@ public class Main {
         int Connections = in.nextInt();
         for (int i = 0; i < Connections; i++) {
             unionFind.union(in.nextInt(), in.nextInt());
-            System.out.println(unionFind.howManyComponents());
+//            System.out.println(unionFind.howManyComponents());
 
         }
-        System.out.println(unionFind.howManyComponents());
+//        System.out.println(unionFind.howManyComponents());
         System.out.println(unionFind.elements);
 
     }
